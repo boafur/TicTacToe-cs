@@ -96,12 +96,6 @@ namespace TicTacToe
                     gameEnd = true;
                     break;
                 }
-                else
-                {
-                    Console.WriteLine("Something happened and the game ended early.");
-                    gameEnd = true;
-                    break;
-                }
 
                 player = ChangeTurn(player);
 
